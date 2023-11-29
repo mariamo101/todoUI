@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Russo+One&display=swap");
+
+p {
+  margin: 0;
+}
+.App {
+  height: 100vh;
+  width: 100vw;
+  background: #eee;
+  display: flex;
+  align-items: center;
+}
+.todoUI {
+  display: inline-flex;
+  align-items: center;
+  gap: 13.5rem;
+  margin: 10.125rem auto 10.125rem auto;
+  min-width: 48.5rem;
+}
+.Todo {
+  min-width: 21.875rem;
+  min-height: 31.75rem;
+  border-radius: 0.625rem;
+  background: #fff;
+  background-image: url(./images/bg-mobile-light.jpg);
+  background-repeat: no-repeat;
+}
+.todo {
+  color: #007fdb;
+  font-family: "Inter", sans-serif;
+  font-size: 6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.date-time-element {
+  font-family: " Russo One", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin: 7.12rem 1.75rem 0.4rem 10rem;
+}
+.day-date {
+  display: flex;
+  font-size: 1.125rem;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.day {
+  margin-right: 0.5rem;
+}
+.time {
+  font-size: 3rem;
+}
+.Todolist {
+  margin: 0 1.81rem 0 1.81rem;
+}
+
+.TodoTask {
+  display: flex;
+  margin-top: 2rem;
+  width: 19.5rem;
+  height: 2.75rem;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.task {
+  margin-bottom: 0.31rem;
+  max-width: 9rem;
+  color: #0d0d0d;
+  font-family: "Inter", sans-serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.list {
+  margin-bottom: 2rem;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.completed {
+  background-color: white;
+  width: 1.3rem;
+  height: 1.3rem;
+  margin: 0 0.9rem 0 0.5rem;
+  border: 0.08rem solid #20eeb0;
+  border-radius: 50%;
+  transition: 0.3s ease-in-out;
+  padding: 0;
+}
+
+.IconCompleted {
+  border-radius: 50%;
+  background-color: #20eeb0;
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.delete {
+  background-image: url(./images/akar-icons_trash-can.svg);
+  background-repeat: no-repeat;
+  background-color: #fff;
+  width: 1.2rem;
+  height: 1.2rem;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  appearance: none;
+}
