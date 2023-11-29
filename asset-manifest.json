@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/todoUI/static/css/main.7ad2a43c.css",
+    "main.js": "/todoUI/static/js/main.d2dbc4e8.js",
+    "static/media/akar-icons_trash-can.svg": "/todoUI/static/media/akar-icons_trash-can.a8527b5dee3b458a1034.svg",
+    "static/media/akar-icons_circle.svg": "/todoUI/static/media/akar-icons_circle.3500f6169df08df3c95321f863c78731.svg",
+    "index.html": "/todoUI/index.html",
+    "static/media/Vector.svg": "/todoUI/static/media/Vector.e4b2af6aa6ba4465819d.svg",
+    "main.7ad2a43c.css.map": "/todoUI/static/css/main.7ad2a43c.css.map",
+    "main.d2dbc4e8.js.map": "/todoUI/static/js/main.d2dbc4e8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ad2a43c.css",
+    "static/js/main.d2dbc4e8.js"
+  ]
+}
